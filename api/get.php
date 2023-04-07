@@ -3,6 +3,8 @@ header("Content-type: application/json; charset=UTF-8");
 include_once("req.php");
 include_once("collect.php");
 
+date_default_timezone_set("Asia/Shanghai");
+
 // $con = Req::args("con");
 $act = Req::args("act");
 $get = new Get();

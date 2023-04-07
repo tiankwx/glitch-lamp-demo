@@ -14,3 +14,4 @@ CREATE TABLE `view` (
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='保存浏览者基本信息';
+set global time_zone = '+8:00';
